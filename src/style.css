@@ -11,6 +11,19 @@ video {
   object-fit: cover;
 }
 
+/* audio players */
+audio {
+  position: absolute;
+  bottom: 20px;
+}
+#base-audio {
+  left: 20px;
+}
+#audio {
+  left: 340px;
+}
+
+/* Imaginary borders */
 .top-boxes {
   position: absolute;
   top: 0;

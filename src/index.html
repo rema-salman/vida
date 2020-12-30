@@ -4,13 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="#" />
     <title>Vida</title>
   </head>
   <body>
     <!-- Replace this with your image. Make sure CORS settings allow reading the image! -->
     <video id="video"></video>
     <canvas id="canvas"></canvas>
-    <audio id="audio"></audio>
+
+    <audio
+      id="audio"
+      src=""
+      type="audio/mpeg"
+      autoplay
+      loop
+      controls
+      controlslist="nodownload"
+    ></audio>
+    <audio
+      id="base-audio"
+      src="./natural-sounds/waterfall_loop.mp3"
+      type="audio/mpeg"
+      autoplay
+      loop
+      controls
+      controlslist="nodownload"
+    ></audio>
+
     <div class="top-boxes flex">
       <h3>top-left</h3>
       <h3>top-right</h3>
